@@ -33,7 +33,7 @@ function handleVideoSelection(data)
 };
 
   return (
-    <div className="border-solid border-2 border-black h-screen mt-2 mx-2">
+    <div className="border-solid border-2 border-black h-auto mt-2 mx-2">
       <Search Search_submit={Search_submit}/>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-1 m-2">
       <VideoDetails video={video} />
