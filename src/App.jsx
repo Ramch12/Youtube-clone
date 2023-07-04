@@ -21,7 +21,7 @@ const App = () => {
        setVideo(response.data.items[0]);
        setVideo_list(response.data.items);
     } catch (err) {
-      console.log(err);
+      retrun (<h1>Loading...</h1>)
     }
   }
 
